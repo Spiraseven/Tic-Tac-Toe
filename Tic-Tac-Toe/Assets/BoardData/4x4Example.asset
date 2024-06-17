@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e7960b4e083d2049a6ae324df274e8c, type: 3}
-  m_Name: ClassicBoardData
+  m_Name: 4x4Example
   m_EditorClassIdentifier: 
-  BoardSize: 3
+  BoardSize: 4
   BoardStartX: -1.3
   BoardStartY: 0.05
   BoardStartZ: -1.3
-  BoardSquareSeperation: 1.3
+  BoardSquareSeperation: 1.2
   BoardSquare: {fileID: 20148352244089050, guid: 778481028ff2145408e0cd0410c36f08,
     type: 3}
-  BoardX: {fileID: 7215565622471576879, guid: 71ff0ee80c9171d47b2d0a80e7d8fdcc, type: 3}
-  BoardO: {fileID: 2810296330888236785, guid: a4611eef3c073674faf249126c77bdfc, type: 3}
+  XPiece: {fileID: 7215565622471576879, guid: 71ff0ee80c9171d47b2d0a80e7d8fdcc, type: 3}
+  OPiece: {fileID: 2810296330888236785, guid: a4611eef3c073674faf249126c77bdfc, type: 3}
+  CameraPosition: {x: -0.34, y: 4.29, z: -4.36}

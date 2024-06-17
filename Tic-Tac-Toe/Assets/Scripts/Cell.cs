@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/*
+ * Class that holds data about each spot on the game board.
+ */
 public class Cell
 {
     public enum CellType
@@ -9,14 +12,16 @@ public class Cell
         O = 2,
     }
 
+    public int XPos;
+    public int ZPos;
     public CellType Type;
-    public CellInteractor Interactor;
-    public GameObject Piece;
+    public GameObject BoardSquare;
 
-    public Cell(CellInteractor interactor)
+    public Cell(GameObject boardSquare, int xpos, int zpos)
     {
         Type = CellType.None;
-        Interactor = interactor;
-        Piece = null;
+        BoardSquare = boardSquare;
+        XPos = xpos;
+        ZPos = zpos;
     }
 }
